@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Salon Website</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <h1>Welcome to My Salon</h1>
+    <p>We offer professional beauty services.</p>
+
+</body>
+</html>s<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Salon</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="logo">Eve Salon</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Look Good, Feel Confident</h2>
+    <p>Professional hair & beauty services</p>
+    <button>Book Now</button>
+  </section>
+
+</body>
+</html>
+<section class="services">
+  <h2>Our Services</h2>
+
+  <div class="services-container">
+    <div class="service-card">
+      <h3>Haircut</h3>
+      <p>Clean, stylish cuts for all ages.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Hair Styling</h3>
+      <p>Modern styles for events and daily looks.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Manicure & Pedicure</h3>
+      <p>Neat, clean, and professional nail care.</p>
+    </div>
+
+    <div class="service-card">
+      <h3>Makeup</h3>
+      <p>Perfect glam for weddings and occasions.</p>
+    </div>
+  </div>
+</section>
+<div class="service-card">
+  <h3>Haircut</h3>
+  <p>Clean, stylish cuts for all ages.</p>
+  <span class="price">KSh 500</span>
+</div>
+
+<div class="service-card">
+  <h3>Hair Styling</h3>
+  <p>Modern styles for events and daily looks.</p>
+  <span class="price">KSh 1,000</span>
+</div>
+
+<div class="service-card">
+  <h3>Manicure & Pedicure</h3>
+  <p>Neat, clean, and professional nail care.</p>
+  <span class="price">KSh 800</span>
+</div>
+
+<div class="service-card">
+  <h3>Makeup</h3>
+  <p>Perfect glam for weddings and occasions.</p>
+  <span class="price">KSh 2,500</span>
+</div>
+<div class="service-card">
+  <h3>Haircut</h3>
+  <p>Clean, stylish cuts for all ages.</p>
+  <span class="price">KSh 500</span>
+  <button class="book-btn">Book Now</button>
+</div>
+<a href="https://wa.me/254723373514" class="book-btn">
+  Book Now
+</a>
+<section class="contact">
+  <h2>Contact Us</h2>
+
+  <div class="contact-container">
+    <div class="contact-info">
+      <p><strong>Phone:</strong> +254 7XXXXXXXX</p>
+      <p><strong>Email:</strong> info@martosalon.co.ke</p>
+      <p><strong>Location:</strong> Nairobi, Kenya</p>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+<a href="https://wa.me/254723373514?text=Hi%20Eve%20Salon,%20I%20would%20like%20to%20book%20a%20Haircut." 
+   class="book-btn" target="_blank">
+  Book Now
+</a>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<div class="service-card">
+  <i class="fa-solid fa-scissors fa-2x"></i>
+  <h3>Haircut</h3>
+  <p>Clean, stylish cuts for all ages.</p>
+  <span class="price">KSh 500</span>
+  <a href="https://wa.me/2547XXXXXXXX?text=Hi%20Marto%20Salon,%20I%20would%20like%20to%20book%20a%20Haircut." class="book-btn" target="_blank">Book Now</a>
+</div>
+
+<div class="service-card">
+  <i class="fa-solid fa-person-magic fa-2x"></i>
+  <h3>Hair Styling</h3>
+  <p>Modern styles for events and daily looks.</p>
+  <span class="price">KSh 1,000</span>
+  <a href="https://wa.me/2547XXXXXXXX?text=Hi%20Marto%20Salon,%20I%20would%20like%20to%20book%20Hair%20Styling." class="book-btn" target="_blank">Book Now</a>
+</div>
+
+<div class="service-card">
+  <i class="fa-solid fa-hand-sparkles fa-2x"></i>
+  <h3>Manicure & Pedicure</h3>
+  <p>Neat, clean, and professional nail care.</p>
+  <span class="price">KSh 800</span>
+  <a href="https://wa.me/2547XXXXXXXX?text=Hi%20Marto%20Salon,%20I%20would%20like%20to%20book%20Manicure%20&%20Pedicure." class="book-btn" target="_blank">Book Now</a>
+</div>
+
+<div class="service-card">
+  <i class="fa-solid fa-face-smile-beam fa-2x"></i>
+  <h3>Makeup</h3>
+  <p>Perfect glam for weddings and occasions.</p>
+  <span class="price">KSh 2,500</span>
+  <a href="https://wa.me/2547XXXXXXXX?text=Hi%20Marto%20Salon,%20I%20would%20like%20to%20book%20Makeup." class="book-btn" target="_blank">Book Now</a>
+</div>
